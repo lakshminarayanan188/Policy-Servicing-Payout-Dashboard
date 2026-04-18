@@ -1,0 +1,36 @@
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --sidebar-bg: #1A2B4C;
+  --accent: #0EA5A0;
+  --color-extract: #3B82F6;
+  --color-approve: #6366F1;
+  --color-techbucket: #F59E0B;
+  --color-sanction: #F97316;
+  --color-paid: #22C55E;
+  --bg: #F8FAFC;
+  --text-primary: #1E293B;
+  --text-muted: #64748B;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 { margin: 0; font-family: 'Inter', sans-serif; }
+
+.p-datatable .p-datatable-tbody > tr { transition: background 0.15s; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #F1F5F9; }
+::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 3px; }
